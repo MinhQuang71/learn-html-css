@@ -21,8 +21,13 @@ html {
 4. Kiểu dáng (kiểu chữ, hình tròn, vuông,...) 
 */
 
+.text-white {
+    color: #fff !important;
+}
+#main {
 
-#main {}
+}
+
 
 #header {
     position: fixed;
@@ -152,6 +157,7 @@ html {
     text-align: center;
     font-weight: 500;
     letter-spacing: 4px;
+    margin-top: 64px ;
 
 }
 #content .section-sub-heading {
@@ -168,12 +174,38 @@ html {
     margin-top: 25px;
     font-size: 15px;
     text-align: justify;
-    line-height: 1.8;
+    line-height: 1.4;
     padding: 64px 0;
 
 } 
+#content .member-list {
+   overflow: hidden;
+}
 
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
 
+#content .member-name {
+    font-size: 15px;
+   
+}
 
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+/* Tour section */
+.tour-section {
+    background-color: #000;
+}
 
-#footer {}
+.tickets-list {
+    background-color: #fff;
+}
+#footer {
+
+}
