@@ -52,7 +52,7 @@
 
         <div id="content">
             <!-- About section -->
-            <div class="content-secti  on">
+            <div class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
@@ -84,7 +84,7 @@
             </div>
 
             <!-- Tour section -->
-    <div id="tour-section">
+            <div id="tour-section">
                 <div class="section-content">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
                     <p class="section-sub-heading text-white">Remember to book your tickets!</p>
@@ -96,8 +96,45 @@
                     </ul>
                 </div>
 
-            </div> 
-        
+                <!-- places -->
+                <div class="places-list">
+                    <div class="place-item">
+                        <img src="./img/place/Tuyen-tap-hinh-nen-4K-danh-cho-may-tinh-dep-7-1.jpg" alt="New York"
+                            class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">New York</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <a href="#" class="place-buy-btn">Buy Tickets</a>
+                        </div>
+                    </div>
+
+                    <div class="place-item">
+                        <img src="./img/place/paris.jpg" alt="New York" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">Paris</h3>
+                            <p class="place-time">Sat 28 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <a href="#" class="place-buy-btn">Buy Tickets</a>
+                        </div>
+                    </div>
+
+                    <div class="place-item">
+                        <img src="./img/place/sanfran.jpg" alt="New York" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">San Francisco</h3>
+                            <p class="place-time">Sun 29 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <a href="#" class="place-buy-btn">Buy Tickets</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
 
 
             <!-- Contact section -->
@@ -110,7 +147,32 @@
 
             </div>
         </div>
-    
+
+     <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <header class="modal-header">
+                <i class="fa-solid fa-briefcase"></i>
+            </header>
+
+            <div class="modal-body">
+                <label for="" class="modal-label">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" placeholder="How many?">
+
+                <label for="" class="modal-label">
+                    <i class="fa-solid fa-user"></i>
+                    Send to
+                </label>
+                <input type="email" class="modal-input" placeholder="
+                Enter email...">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
