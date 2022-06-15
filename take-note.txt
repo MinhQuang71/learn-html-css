@@ -15,7 +15,7 @@
 
 ****** NEED TO DO: ****************
 
-16/06/2022:
-- Tách footer ở trong home ra gắn ở detail và home
-- Tách tiếp member list ra gắn ở detail và home
--> check out ra nhánh mới split-widget (tách wiget) làm trên nhánh này
+(16/06/2022)yêu cầu :
+1. Tách footer ở trong home ra gắn ở detail và home
+2. Tách tiếp member list ra gắn ở detail và home
+3. --> check out ra nhánh mới split-widget (tách wiget) làm trên nhánh này
