@@ -1,0 +1,20 @@
+1. Image should use the image tag
+2.
+    * - gạch ngang là thư mục
+    * + dấu cộng là file
+
+    Cấu trúc project thông thường:
+    - Tên project / tên thư mục (root)
+        - assets (đây là nơi chứa những tài nguyên, vd: image, local data base, file bên ngoài cần cho dự án)
+        - screens (đây là thư mục chứa toàn bộ các screen)
+        - widgets (đây là thư mục chứa những cái widget sẽ xài chung)
+        + index.html (index ngoài root / thường sẽ là file khởi đầu, bắt đầu, chạy đầu tiên)
+        + style.css (file styles đi theo file html)
+
+
+
+****** NEED TO DO: ****************
+
+16/06/2022:
+- Tách footer ở trong home ra gắn ở detail và home
+- Tách tiếp member list ra gắn ở detail và home
