@@ -375,7 +375,37 @@ margin-top: 48px;
     float: right;
     outline: none ;
 }
+/* Map */
+.map-section img {
+    width: 100%;
+    
+}
+
+
 /* Footer section */
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .social-list {
+    font-size: 24px;
+}
+
+#footer .social-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .social-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+#footer .copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
 #footer .copyright a {
     color: rgba(0, 0, 0, 0.6);
 }
